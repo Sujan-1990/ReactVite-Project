@@ -1,0 +1,17 @@
+.login__btn {
+	background-color: #6354f2;
+	text-decoration: none;
+	color: white;
+	padding: 0.8rem 1.4rem;
+	border: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.login__btn:hover {
+	background-color: #6b5bf3;
+}
+.login__btn:active {
+	background-color: #6354f2;
+}
