@@ -20,7 +20,7 @@
 .navbar-right .items {
 	display: flex;
 	align-items: center;
-	gap: 25px;
+	gap: 30px;
 }
 .link:hover {
 	color: #bdbdbd;
