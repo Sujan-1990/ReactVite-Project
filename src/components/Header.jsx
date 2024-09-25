@@ -24,6 +24,9 @@ const Header = () => {
 				<NavLink className="links" to="/contact">
 					Contact
 				</NavLink>
+				<NavLink className="links" to="/form">
+					Sample Form
+				</NavLink>
 				{/* <Button name="Login" btnClass="login__btn" /> */}
 				<NavLink className="links cart-trolley--link" to="/cart">
 					<FiShoppingCart className="cart-trolley" />

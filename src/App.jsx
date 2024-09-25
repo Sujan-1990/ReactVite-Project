@@ -11,6 +11,7 @@ import Cart from "./pages/Cart";
 import SingleProduct from "./pages/SingleProduct";
 import ErrorPage from "./pages/ErrorPage";
 import Header from "./components/Header";
+import Form from "./pages/Form";
 // -----------------------------------------
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 					<Route path="/products" element={<Products />} />
 					<Route path="/contact" element={<Contact />} />
 					<Route path="/cart" element={<Cart />} />
+					<Route path="/form" element={<Form />} />
 					<Route path="/singleproduct/:id" element={<SingleProduct />} />
 					<Route path="*" element={<ErrorPage />} />
 				</Routes>
